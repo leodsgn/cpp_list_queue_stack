@@ -18,11 +18,43 @@ Node.h
 
 /Users/leoribeiro/Workspace/UEG/estrutura_de_dados/2o Bimestre/trabalho_2a_va/Node.h
 
-/Users/leoribeiro/Workspace/UEG/estrutura_de_dados/2o Bimestre/trabalho_2a_va/main.cpp
+/Users/leoribeiro/Workspace/UEG/estrutura_de_dados/2o Bimestre/trabalho_2a_va/PlazaAlgorithm.h
 iostream
 -
 Node.h
 /Users/leoribeiro/Workspace/UEG/estrutura_de_dados/2o Bimestre/trabalho_2a_va/Node.h
 List.h
 /Users/leoribeiro/Workspace/UEG/estrutura_de_dados/2o Bimestre/trabalho_2a_va/List.h
+Stack.h
+/Users/leoribeiro/Workspace/UEG/estrutura_de_dados/2o Bimestre/trabalho_2a_va/Stack.h
+Queue.h
+/Users/leoribeiro/Workspace/UEG/estrutura_de_dados/2o Bimestre/trabalho_2a_va/Queue.h
+
+/Users/leoribeiro/Workspace/UEG/estrutura_de_dados/2o Bimestre/trabalho_2a_va/Queue.h
+stdlib.h
+-
+stdio.h
+-
+iostream
+-
+Node.h
+/Users/leoribeiro/Workspace/UEG/estrutura_de_dados/2o Bimestre/trabalho_2a_va/Node.h
+
+/Users/leoribeiro/Workspace/UEG/estrutura_de_dados/2o Bimestre/trabalho_2a_va/Stack.h
+iostream
+-
+Node.h
+/Users/leoribeiro/Workspace/UEG/estrutura_de_dados/2o Bimestre/trabalho_2a_va/Node.h
+
+/Users/leoribeiro/Workspace/UEG/estrutura_de_dados/2o Bimestre/trabalho_2a_va/main.cpp
+iostream
+-
+List.h
+/Users/leoribeiro/Workspace/UEG/estrutura_de_dados/2o Bimestre/trabalho_2a_va/List.h
+Stack.h
+/Users/leoribeiro/Workspace/UEG/estrutura_de_dados/2o Bimestre/trabalho_2a_va/Stack.h
+Queue.h
+/Users/leoribeiro/Workspace/UEG/estrutura_de_dados/2o Bimestre/trabalho_2a_va/Queue.h
+PlazaAlgorithm.h
+/Users/leoribeiro/Workspace/UEG/estrutura_de_dados/2o Bimestre/trabalho_2a_va/PlazaAlgorithm.h
 

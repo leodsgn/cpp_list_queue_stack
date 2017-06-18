@@ -1,60 +1,71 @@
 #include <iostream>
 
-#include "Node.h"
 #include "List.h"
+#include "Stack.h"
+#include "Queue.h"
+#include "PlazaAlgorithm.h"
 
 using namespace std;
 
+// Initialize
+List<Food> * foodList = new List<Food>();
+Stack<Book> * bookStack = new Stack<Book>();
+Queue<People> * peopleQueue = new Queue<People>();
 
-// ------ Declaring structs --------
-
-typedef struct food {
-    string name;
-} Food;
-
-typedef struct book {
-    string name;
-} Book;
-
-typedef struct people {
-    Food food;
-    Book book;
-    string name;
-} People;
-// ------ End declaring structs --------
-
-
+void mainMenu();
 
 int main() {
 
-    List<Food> * listOfFood= new List<Food>();
-
-    Food * carrots = new Food;
-    Food * salsage = new Food;
-
-
-    salsage->name = "Salsage";
-    carrots->name = "Carrots";
-
-    Node<Food> * food = new Node<Food>(carrots);
-    Node<Food> * food2 = new Node<Food>(salsage);
-
-    listOfFood->insert(food);
-
-    cout << listOfFood->findNode(0)->getValue()->name << endl;
-    cout << listOfFood->getSize() << endl;
-
-    listOfFood->insert(food2);
-
-    cout << listOfFood->findNode(1)->getValue()->name << endl;
-    cout << listOfFood->getSize() << endl;
-
-    listOfFood->clear();
-
-    cout << listOfFood->getSize() << endl;
-
-
+    cout << "Hey! Let's get started with our book delivery for food!" << endl;
+    mainMenu();
 
     return 0;
 
+}
+
+void mainMenu(){
+    int option;
+    cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    cout << "===============   Plaza Algorithm   ===============" << endl;
+    cout << "1. add people to the queue;" << endl;
+    cout << "2. add book to the stack" << endl;
+    cout << "3. list all people in queue" << endl;
+    cout << "4. list all books in stack" << endl;
+    cout << "5. list all foods in list" << endl;
+    cout << "6. give food and get a book" << endl;
+    cout << "0. exit" << endl;
+
+    cin >> option;
+
+    switch (option) {
+        case 1:
+            Plaza::addPeopleToQueue(peopleQueue);
+            mainMenu();
+            break;
+        case 2:
+            Plaza::addBookToStack(bookStack);
+            mainMenu();
+            break;
+        case 3:
+            Plaza::listItems(peopleQueue->getFirstNode());
+            mainMenu();
+            break;
+        case 4:
+            Plaza::listItems(bookStack->getFirstNode());
+            mainMenu();
+            break;
+        case 5:
+            Plaza::listItems(foodList->getFirstNode());
+            mainMenu();
+            break;
+        case 6:
+            Plaza::giveFoodForBook(foodList, peopleQueue, bookStack);
+            mainMenu();
+            break;
+        case 0:
+            exit(0);
+        default:
+            mainMenu();
+            break;
+    }
 }

@@ -85,6 +85,9 @@
 		<Unit filename="/Users/leoribeiro/Workspace/UEG/estrutura_de_dados/2o Bimestre/trabalho_2a_va/List.h">
 			<Option target="trabalho_2a_va"/>
 		</Unit>
+		<Unit filename="/Users/leoribeiro/Workspace/UEG/estrutura_de_dados/2o Bimestre/trabalho_2a_va/PlazaAlgorithm.h">
+			<Option target="trabalho_2a_va"/>
+		</Unit>
 		<Unit filename="/Users/leoribeiro/Workspace/UEG/estrutura_de_dados/2o Bimestre/trabalho_2a_va/Queue.h">
 			<Option target="trabalho_2a_va"/>
 		</Unit>

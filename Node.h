@@ -38,8 +38,16 @@ public:
         this->nextNode = node;
     }
 
+    void deleteNextNode() {
+        this->nextNode = nullptr;
+    }
+
     void setPreviousNode(Node<T> * node) {
         this->previousNode = node;
+    }
+
+    void deletePreviousNode() {
+        this->previousNode = nullptr;
     }
 
     T * getValue() {

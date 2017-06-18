@@ -3,5 +3,8 @@
 
 CMakeFiles/trabalho_2a_va.dir/main.cpp.o: ../List.h
 CMakeFiles/trabalho_2a_va.dir/main.cpp.o: ../Node.h
+CMakeFiles/trabalho_2a_va.dir/main.cpp.o: ../PlazaAlgorithm.h
+CMakeFiles/trabalho_2a_va.dir/main.cpp.o: ../Queue.h
+CMakeFiles/trabalho_2a_va.dir/main.cpp.o: ../Stack.h
 CMakeFiles/trabalho_2a_va.dir/main.cpp.o: ../main.cpp
 

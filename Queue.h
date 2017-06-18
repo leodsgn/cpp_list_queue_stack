@@ -48,6 +48,7 @@ public:
             if(aux->getNextNode() == nullptr) {
                 aux->setNextNode(node);
                 aux->getNextNode()->setPreviousNode(aux);
+                size++;
                 return aux->getNextNode();
             }
             else {
@@ -71,8 +72,8 @@ public:
 
             if(firstNode->getNextNode() == nullptr) {
                 Node<T> * aux = firstNode;
-                delete firstNode;
-                delete lastNode;
+                firstNode = nullptr;
+                lastNode = nullptr;
                 cout << "Queue is now empty" << endl;
                 size--;
                 return aux;
@@ -88,6 +89,10 @@ public:
                 return aux;
             }
         }
+    }
+
+    Node<T> * getFirstNode() {
+        return firstNode;
     }
 
 
