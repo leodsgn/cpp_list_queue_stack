@@ -1,0 +1,3 @@
+/Users/leoribeiro/Workspace/UEG/estrutura_de_dados/2o Bimestre/trabalho_2a_va/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/leoribeiro/Workspace/UEG/estrutura_de_dados/2o Bimestre/trabalho_2a_va/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/leoribeiro/Workspace/UEG/estrutura_de_dados/2o Bimestre/trabalho_2a_va/cmake-build-debug/CMakeFiles/trabalho_2a_va.dir

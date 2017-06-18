@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/leoribeiro/Workspace/UEG/estrutura_de_dados/2o Bimestre/trabalho_2a_va/List.h
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+Node.h
+/Users/leoribeiro/Workspace/UEG/estrutura_de_dados/2o Bimestre/trabalho_2a_va/Node.h
+
+/Users/leoribeiro/Workspace/UEG/estrutura_de_dados/2o Bimestre/trabalho_2a_va/Node.h
+
+/Users/leoribeiro/Workspace/UEG/estrutura_de_dados/2o Bimestre/trabalho_2a_va/main.cpp
+iostream
+-
+Node.h
+/Users/leoribeiro/Workspace/UEG/estrutura_de_dados/2o Bimestre/trabalho_2a_va/Node.h
+List.h
+/Users/leoribeiro/Workspace/UEG/estrutura_de_dados/2o Bimestre/trabalho_2a_va/List.h
+
