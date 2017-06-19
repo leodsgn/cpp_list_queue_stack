@@ -68,6 +68,7 @@ public:
     Node<T> * pop() {
         if(firstNode == nullptr && lastNode == nullptr) {
             cout << "Nothing to pop. The Stack is empty!" << endl;
+            return nullptr;
         }
         else {
 

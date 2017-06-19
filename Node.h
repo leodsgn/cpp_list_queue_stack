@@ -26,10 +26,6 @@ public:
         previousNode = nullptr;
     }
 
-    ~Node() {
-        Node<T> * temp;
-    }
-
     void setValue(T * value) {
         this->value = value;
     }

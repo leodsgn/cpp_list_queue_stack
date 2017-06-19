@@ -67,6 +67,7 @@ public:
     Node<T> * dequeue() {
         if(firstNode == nullptr && lastNode == nullptr) {
             cout << "No nodes found in this queue" << endl;
+            return nullptr;
         }
         else {
 

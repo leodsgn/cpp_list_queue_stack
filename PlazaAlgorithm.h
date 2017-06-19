@@ -118,7 +118,7 @@ namespace Plaza {
 
         Node<Book> * nodeOfBook = stackOfBook->pop();
 
-        if(nodeOfPeople->getValue()->food != nullptr) {
+        if(nodeOfPeople != nullptr && nodeOfPeople->getValue() != nullptr) {
             nodeOfFood->setValue(nodeOfPeople->getValue()->food);
 
             listOfFood->insert(nodeOfFood);
@@ -134,10 +134,12 @@ namespace Plaza {
             else {
                 cout << "Sorry, our book stock is over! Take your food again";
                 nodeOfPeople->getValue()->food = nodeOfFood->getValue();
+                return;
             }
         }
         else {
             cout << "Sorry, but you have no food to trade for a book." << endl;
+            return;
         }
 
     }

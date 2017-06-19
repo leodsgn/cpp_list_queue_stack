@@ -59,6 +59,7 @@ public:
     Node<T> * findNode(Node<T> * node) {
         if(first_value == nullptr) {
             cout << "Nothing in the List." << endl;
+            return nullptr;
         }
         else {
             Node<T> * aux = first_value;
@@ -76,6 +77,7 @@ public:
         int start = 0;
         if(this->first_value == nullptr) {
             cout << "Nothing in the List." << endl;
+            return nullptr;
         }
         else {
             Node<T> * aux = this->first_value;
@@ -93,6 +95,7 @@ public:
     void remove(Node<T> * node) {
         if(first_value == nullptr) {
             cout << "Nothing to remove." << endl;
+            return;
         }
         else {
             Node<T> * aux = first_value;
@@ -116,6 +119,7 @@ public:
 
         if(first_value == nullptr) {
             cout << "Nothing to remove." << endl;
+            return;
         }
 
         else {
@@ -151,6 +155,7 @@ public:
     void clear() {
         if(this->first_value == nullptr) {
             cout << "List already clear!" << endl;
+            return;
         }
         else {
             if(this->first_value->getNextNode() == nullptr) {
